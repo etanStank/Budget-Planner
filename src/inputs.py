@@ -22,6 +22,7 @@ specify all of the prefixes
 import multiprocessing
 
 __prefixes__ = ["o", "a", "t", "c"]
+__list__ = None
 
 # | ------------------------------------------------------------- | #
 
@@ -59,7 +60,8 @@ def convert_string(user_input):
 def input_request():
     user_input = input("Add your request: ")
     if user_input:
-        return convert_string(user_input)
+        __list__ = convert_string(user_input)
+        return __list__
     else:
         print("Please enter a valid request.")
         input_request()
@@ -67,5 +69,3 @@ def input_request():
     # tell the main py file to not request input until it is complete with calculations
 
 # | ------------------------------------------------------------- | #
-
-print(input_request())
