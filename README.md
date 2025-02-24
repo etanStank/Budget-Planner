@@ -1,8 +1,9 @@
+
+ # DEPRECATED CODE
+ Due to some horrid file structure, this code is now no longer being maintained. All of the code already located in this repo should work as intended, but this code is **NO LONGER MAINTAINED**.
+
 # Budget Planner
  My horrible budget planner in python.
-
- # Deprecated Code
- Due to some horrid file structure, this code is now no longer being maintained. All of the code already located in this repo should work as intended, but this code is **NO LONGER MAINTAINED**.
 
 ### Horrible File Structure
 ```
